@@ -1,4 +1,5 @@
-public class Album {
+namespace MusicExplorer.Models; 
+internal class Album {
     private List<Musica> musicas = new List<Musica>();
 
     public Album(string nome) {

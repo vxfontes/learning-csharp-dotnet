@@ -1,4 +1,5 @@
-public class Musica {
+namespace MusicExplorer.Models;
+internal class Musica {
     public Musica(Banda artista, string nome) {
         Artista = artista;
         Nome = nome;
